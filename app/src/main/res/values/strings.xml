@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Terremotos</string>
+    <string name="perto">Próximo à</string>
+    <string name="vazio">Nenhum Terremoto Encontrado</string>
+    <string name="noConnection">Sem conexão à internet</string>
+    <string name="config_menu_item">Configurações</string>
+    <string name="config_title">Configurações de Terremotos</string>
+    <string name="settings_min_magnitude_label">Magnitude mínima</string>
+    <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>
+    <string name="settings_min_magnitude_default" translatable="false">0</string>
+    <!-- Strings Para Preferência de Order-By [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Ordenar por</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Label para opção de order-by magnitude [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">Magnitude</string>
+    <string name="settings_order_by_magnitude_value" translatable="false">magnitude</string>
+
+    <!-- Label para order-by a opção mais recente [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Mais recentes</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">time</string>
+</resources>
